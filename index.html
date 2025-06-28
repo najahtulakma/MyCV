@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>My CV</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/mediaqueries.css"/>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Najahtul Akma</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                   
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Najahtul Akma</div>
+            <div class="hamburger-menu" >
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                    
+                    
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+                
+        </nav>
+        <section id="profile">
+            <div class ="section_pic-container">
+                <img src="images/profile.png" alt="Profile Picture" width="300px" class="profile-pic"></div>
+                
+            <div class="section_text">
+                <p class="section_text_p1">Hello, i'm </p>
+                <h1 class="title">Najahtul Akma</h1>
+                <p class="section_text_2">A passionate web developer</p>
+                <div class="btn-container">
+                   <button class="btn btn-color-2" onclick="window.open('assets/nurnajahtulresume.pdf')">Download CV</button>
+                   <button class="btn btn-color-1" onclick="location.href = '#contact'">Contact Me</button>
+
+
+
+            </div>
+            <div id="socials-container">
+                <img src="images/linkedin.png" alt="linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/najahtulakma/'"/>
+                <img src="images/github.png" alt="github" class="icon" onclick="location.href='https://github.com/najahtulakma'"/>
+
+            </div>
+        </section>  
+        <section id ="about">
+            <p class="section_text_p1">Get To Know Me</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class ="section_pic-container">
+                    <img src="images/profile-picture.png" alt="About Me" width="250px" class="about-pic"/>
+
+                </div>
+                <div class="about-details-container">
+                    <div class ="about-containers">
+                        <div class ="details-container">
+                            <img src="images/education.png" alt="Education Icon" class="icon"/>
+                            <h3>Education</h3>
+                            <p>Foundation in Information Technology<br />Bachelor in Information Technology(Hons)</p>
+
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Motivated and detail-oriented Bachelor of Information Technology (Hons) student with a strong interest in data engineering and system development.<br> Demonstrates leadership and organizational skills through active involvement in university clubs, including the Badminton Club and Leadership Club. Passionate about technology, teamwork, and continuous learning, with a growing foundation in programming, databases, and system design. Eager to apply technical knowledge and analytical thinking to real-world challenges in the data engineering field.
+
+</p>
+                    </div>
+                
+            </div>
+            <img src="images/arrowdown.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#education'"/>
+        </section>
+        <section id ="education">
+            <p class ="section_text_p1">Explore My</p>
+            <h1 class ="title">Skills</h1>
+            <div class="education-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="education-sub-title">Skills</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="images/checkmark.png" alt="Checkmark Icon" class="icon"/>
+                                <div>
+                                    <h3>HTML</h3>
+                                   
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Checkmark Icon" class="icon"/>
+                                <div>
+                                    <h3>CSS</h3>
+                                   
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Checkmark Icon" class="icon"/>
+                                <div>
+                                    <h3>C++</h3>
+                                   
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Checkmark Icon" class="icon"/>
+                                <div>
+                                    <h3>SQL</h3>
+                                   
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Checkmark Icon" class="icon"/>
+                                <div>
+                                    <h3>Python</h3>
+                                   
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Checkmark Icon" class="icon"/>
+                                <div>
+                                    <h3>C#</h3>
+                                   
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <img src="images/arrowdown.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'"/>
+        </section>
+        <section id="contact">
+            <p class="section_text_p1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-container">
+               <div class="contact-info-upper-container">
+                 <div class="contact-info-container">
+                    <img src="images/email.jpg" alt="Email Icon" class="icon contact-icon"/>
+                    <p><a href="mailto:nur_24000153@utp.edu.my">nur_24000153@utp.edu.my</a></p>
+                 </div>
+               
+              
+                 <div class="contact-info-container">
+                    <img src="images/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon"/>
+                    <p><a href="https://www.linkedin.com/in/najahtulakma">LinkedIn</a></p>
+                </div>
+                </div>
+            </div>
+            
+         
+            
+               
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                  <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                   
+                    <li><a href="#contact">Contact</a></li>
+                   </ul>
+                </div>
+
+            </nav>
+            <p> Copyright &#169; 2024 Najahtul Akma. All Rights Reserved.</p>
+        </footer>
+        
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
+
+
+
